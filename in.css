@@ -1,0 +1,128 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #6495ED; /* Darker blue for contrast */
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: flex-end; /* จัดให้อยู่ทางขวา */
+    align-items: center; /* จัดให้อยู่ตรงกลางตามแนวดิ่ง */
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.content {
+    max-width: 800px; /* เปลี่ยนเป็น 800px เพื่อให้กว้างขึ้น */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 800px; /* เปลี่ยนเป็น 800px เพื่อให้กว้างขึ้น */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* เปลี่ยนสีพื้นหลัง */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เปลี่ยนเงา */
+}
+
+.container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px; /* เพิ่มระยะห่าง */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center; /* จัดเนื้อหาตรงกลาง */
+}
+
+.container h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.container form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container form label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.container form input[type="text"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: calc(50% - 24px);
+}
+
+.container form button {
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.container form button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 40px;
+}
+
+.result h2 {
+    color: #333;
+    margin-bottom: 30px;
+}

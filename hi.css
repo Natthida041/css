@@ -1,0 +1,75 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #6495ED; /* Darker blue for contrast */
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: flex-end; /* จัดให้อยู่ทางขวา */
+    align-items: center; /* จัดให้อยู่ตรงกลางตามแนวดิ่ง */
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.sidebar {
+    margin-top: 60px;
+    padding: 15px;
+    width: 200px;
+    background-color: #fff;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    box-shadow: 2px 0 5px 0 rgba(0,0,0,0.5); /* Add shadow to sidebar */
+}
+.sidebar h2 {
+    color: #007BFF; /* Blue to match the theme */
+    margin: 0 0 10px 0; /* Adjust spacing around header */
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee; /* Subtle line under header */
+    }
+.sidebar a {
+    display: block;
+    color: #007BFF;
+    padding: 10px;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    background-color: #f1f1f1;
+}
+.content {
+    margin-left: 220px; /* Offset to not be covered by sidebar */
+    padding: 20px;
+    height: calc(100vh - 60px); /* Full height minus navbar height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack elements vertically */
+    background-color: #fff;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+.billing-info {
+    text-align: center; /* Center the text inside the billing info */
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
